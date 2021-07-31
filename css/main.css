@@ -1,0 +1,19 @@
+.dropdown{
+    display:inline-block;
+}
+.dropdown-content{
+    display:none;
+    position:absolute;
+    background-color: aliceblue;
+    color:black;
+    padding:3px;
+    box-shadow: 2px 2px;
+}
+
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+
+h1{
+    color: white;
+}
